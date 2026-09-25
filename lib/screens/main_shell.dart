@@ -52,7 +52,7 @@ class MainShell extends ConsumerStatefulWidget {
 
 class _MainShellState extends ConsumerState<MainShell>
     with SingleTickerProviderStateMixin, WidgetsBindingObserver {
-  int _currentIndex = 0;
+  int _currentIndex = 1;
   final _mornyeChrome = MornyeChromeController();
   // Preserves the PageView element (and its kept-alive tabs) when the body
   // structure swaps between rail and bottom-bar layouts on rotation.
